@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────
+# EduInsight XAI — Python Dependencies
+# ─────────────────────────────────────────────
+# Install with:
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# ML + XAI
+xgboost==2.0.3
+shap==0.45.0
+scikit-learn==1.4.2
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+
+# API extras
+python-multipart==0.0.9   # for file uploads
+pydantic==2.7.1           # request/response validation
